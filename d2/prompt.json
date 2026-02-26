@@ -1,0 +1,6 @@
+[
+  {
+    "role": "user",
+    "content": "À partir exclusivement des sources ci {{ articles }}, génère un récit cohérent respectant les contraintes stylistiques suivantes : narration immersive, tons et atmosphères maîtrisés, absence d'emoji."
+  }
+]
