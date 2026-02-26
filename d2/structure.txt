@@ -1,0 +1,17 @@
+==================================================
+STRUCTURE OBLIGATOIRE DE LA NOTE DE SYNTHÈSE
+==================================================
+
+La note doit respecter STRICTEMENT la structure suivante :
+
+I. Définir c'est quoi Jailbreaker une IA
+
+II. Quels sont les risques liées aux Jailbreak d'IA
+
+III. Techniques de Jailbreak d'IA
+
+IV. Comment lutter contre le Jailbreak d'IA
+
+V. Avantages du Jailbreak d'IA
+
+VI. Conclusion

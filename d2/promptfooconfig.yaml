@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: "devoir 2: légendes urbaines (Jailbreak IA)"
+
+
+prompts:
+  - file://structure.txt
+  - file://articles.txt
+  - |
+    Tu es un expert en architectures LLM et en systèmes multi-agents. 
+    À partir exclusivement des sources ci-dessus et en respectant strictement la structure imposée, génère un récit cohérent respectant les contraintes stylistiques suivantes :
+
+    Contraintes :
+    - Narration immersive
+    - Tons et atmosphère maitrisés
+    - Absence d'emoji
+    - Utiliser uniquement les informations issues des sources
+    - Citer les sources sous la forme [ARTICLE X]
+    - Minimum 1200 mots
+    - Style académique neutre
+    - Ne pas inventer d'informations absentes des sources
+    - Utilises bien toutes les sources fournies pour générer un récit cohérent
+
+
+providers:
+  - id: openrouter:openai/gpt-3.5-turbo
+
+
+
+  
