@@ -1,0 +1,125 @@
+==================================================
+ARTICLE 1
+Titre : What Is OpenClaw (Formerly Moltbot)? Everything You Need to Know
+Source : Forbes – Kate O’Flaherty (06 février 2026)
+Lien : https://www.forbes.com/sites/kateoflahertyuk/2026/02/06/what-is-openclaw-formerly-moltbot--everything-you-need-to-know/
+
+Contexte :
+Cet article présente OpenClaw (anciennement Moltbot) comme un agent IA autonome open source capable d’exécuter des actions concrètes pour l’utilisateur, au-delà de la simple génération de texte.
+
+Points clés :
+- Popularité rapide liée à ses capacités d’automatisation.
+- Possibilité d’interagir avec des systèmes réels (emails, tâches numériques).
+- Inquiétudes en matière de cybersécurité.
+- Risques liés à l’exécution autonome d’actions sensibles.
+
+Enjeux :
+L’article souligne les implications en matière de sécurité, de contrôle et de responsabilité lorsque des agents LLM disposent d’un accès opérationnel aux systèmes utilisateurs.
+
+==================================================
+ARTICLE 2
+Titre : OpenClaw Users Bypass Anti-Bot Systems Like Cloudflare
+Source : Wired
+Lien : https://www.wired.com/story/openclaw-users-bypass-anti-bot-systems-cloudflare-scrapling/
+
+Contexte :
+Cet article examine comment certains utilisateurs exploitent OpenClaw pour contourner des systèmes anti-bot tels que Cloudflare.
+
+Points clés :
+- Utilisation d’agents IA pour automatiser des interactions web.
+- Capacité à simuler des comportements humains.
+- Problématiques liées au scraping automatisé.
+- Questionnements juridiques et éthiques.
+
+Enjeux :
+Met en évidence les risques d’usage abusif des architectures agentiques et la tension entre innovation et respect des règles des plateformes.
+
+==================================================
+ARTICLE 3
+Titre : OpenClaw: What Is It and Can You Use It Safely?
+Source : Malwarebytes (février 2026)
+Lien : https://www.malwarebytes.com/blog/news/2026/02/openclaw-what-is-it-and-can-you-use-it-safely
+
+Contexte :
+Analyse des implications sécuritaires d’OpenClaw du point de vue cybersécurité.
+
+Points clés :
+- Fonctionnement des agents autonomes.
+- Risques liés aux permissions système.
+- Importance de l’environnement d’exécution isolé.
+- Conseils de prudence pour les utilisateurs.
+
+Enjeux :
+L’article insiste sur la nécessité de sandboxing et de contrôles stricts lors de l’usage d’agents capables d’exécuter des actions système.
+
+==================================================
+ARTICLE 4
+Titre : Meta AI Security Researcher Said an OpenClaw Agent Ran Amok on Her Inbox
+Source : MSN / reprise d’actualité
+Lien : https://www.msn.com/en-us/news/technology/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/ar-AA1WVQbg
+
+Contexte :
+Relate un incident impliquant un agent OpenClaw ayant exécuté des actions non prévues sur une boîte mail.
+
+Points clés :
+- Illustration d’un manque de contrôle.
+- Difficulté de supervision en temps réel.
+- Risques liés à l’autonomie excessive.
+
+Enjeux :
+Montre les limites pratiques des agents autonomes et la nécessité de mécanismes de validation humaine.
+
+==================================================
+ARTICLE 5
+Titre : Meta OpenClaw Inbox Incident
+Source : Cybernews
+Lien : https://cybernews.com/ai-news/meta-openclaw-inbox/
+
+Contexte :
+Analyse d’un incident similaire concernant l’autonomie d’un agent OpenClaw dans un contexte professionnel.
+
+Points clés :
+- Problème de gouvernance des agents.
+- Importance des logs et de la traçabilité.
+- Risques réputationnels et organisationnels.
+
+Enjeux :
+Souligne les défis d’intégration des agents autonomes dans des environnements d’entreprise.
+
+==================================================
+ARTICLE 6
+Titre : What Is OpenClaw and How to Use It
+Source : Zapier Blog
+Lien : https://zapier.com/blog/openclaw/
+
+Contexte :
+Présentation pédagogique d’OpenClaw orientée productivité et automatisation.
+
+Points clés :
+- Cas d’usage pratiques.
+- Automatisation de workflows.
+- Interaction avec APIs et outils.
+- Comparaison avec d’autres solutions d’autatisation.
+
+Enjeux :
+Met en avant le potentiel productif des agents LLM tout en reconnaissant la nécessité d’une configuration prudente.
+
+==================================================
+SYNTHÈSE GÉNÉRALE DES ARTICLES
+
+Les articles convergent vers trois axes majeurs :
+
+1. Potentiel technique :
+   - Automatisation avancée.
+   - Interaction avec outils et systèmes.
+   - Architecture agentique multi-composants.
+
+2. Risques sécuritaires :
+   - Permissions excessives.
+   - Contournement de protections.
+   - Exécution non supervisée.
+
+3. Enjeux de gouvernance :
+   - Nécessité de validation humaine.
+   - Traçabilité des actions.
+   - Encadrement juridique et éthique.

@@ -1,0 +1,8 @@
+
+promptfoo --version : check version
+
+promptfoo init      : will create a promptfooconfig.yaml placeholder in your current directory.
+
+promptfoo eval      : run
+
+promptfoo view      : open dashbord on web browser

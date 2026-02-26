@@ -1,0 +1,51 @@
+==================================================
+STRUCTURE OBLIGATOIRE DE LA NOTE DE SYNTHÈSE
+==================================================
+
+La note doit respecter STRICTEMENT la structure suivante :
+
+I. Contexte et problématique
+- Présentation des LLM
+- Limites d’un prompt unique
+- Émergence des architectures multi-agents
+
+II. Architecture technique d’OpenClaw
+- Description des composants
+- Agent principal (controller)
+- Agents spécialisés
+- Gestionnaire d’outils
+- Mémoire et planification
+
+III. Mécanismes d’orchestration et gestion des outils
+- Décomposition des tâches
+- Boucle raisonnement → action → observation
+- Coordination inter-agents
+- Comparaison avec une architecture LLM simple
+
+IV. Cas d’usage détaillés
+- Deux scénarios minimum
+- Description pas-à-pas
+- Identification des agents impliqués
+- Appels d’outils simulés
+
+V. Limites, risques et enjeux de sécurité
+- Hallucinations
+- Sécurité des outils
+- Gestion des erreurs
+- Risques d’autonomie excessive
+
+VI. Conclusion
+- Synthèse
+- Apports d’OpenClaw
+- Limites structurelles
+
+==================================================
+CONTRAINTES SUPPLÉMENTAIRES
+==================================================
+
+- Minimum 1200 mots
+- Style académique neutre
+- Niveau master / ingénieur
+- Citer les sources sous la forme [SOURCE X]
+- Mentionner explicitement les incertitudes
+- Ne pas inventer d’informations absentes des sources
