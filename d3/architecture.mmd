@@ -1,0 +1,21 @@
+%% ============================================================
+%% CAS D'USAGE — Orchestrateur d'outils (agent planificateur ETL)
+%% ============================================================
+%% Le LLM joue le rôle central d'orchestrateur : à partir d'une intention
+%% en langage naturel ("ingérer une API, nettoyer, stocker dans PostgreSQL,
+%% générer un dashboard"), il valorise une chaîne d'actions en produisant
+%% les artefacts techniques (DAG Airflow, code ETL, tests, documentation).
+%% Base de données cible : PostgreSQL.
+%% ============================================================
+
+flowchart TB
+    subgraph CasUsage["Cas d'usage : orchestrateur d'outils"]
+        U[("Intention utilisateur langage naturel")]
+        U --> LLM[LLM — orchestration centrale]
+        LLM --> L[("Livrables valorisés")]
+        L --> L1[DAG Airflow]
+        L --> L2[Code ETL]
+        L --> L3[Tests]
+        L --> L4[Documentation]
+        L --> L5[Points à configurer]
+    end
