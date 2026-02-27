@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+# ---------------------------------------------------------------------------
+# Agent planificateur ETL / Data Pipeline
+# Architecture : décrit le rôle système, instructions, outils, protocoles
+# et gestion des erreurs pour un agent qui génère DAG Airflow, code ETL,
+# tests et documentation à partir d'une description en langage naturel.
+# ---------------------------------------------------------------------------
+
+description: |
+  Agent planificateur qui transforme une intention utilisateur en langage naturel
+  ("ingérer une API, nettoyer les données, stocker dans PostgreSQL, générer un dashboard")
+  en livrables techniques : DAG Airflow, code ETL, tests, documentation.
+  Base de données cible : PostgreSQL. Architecture documentée dans prompt.json.
+
+prompts:
+  - file://prompt.json
+
+defaultTest:
+  inputs:
+    user_goal: "Je veux ingérer une API, nettoyer les données, les stocker dans PostgreSQL et générer un dashboard."
+
+tests:
+  - description: "Cas nominal - pipeline API → PostgreSQL → dashboard"
+    vars:
+      user_goal: "Je veux ingérer une API, nettoyer les données, les stocker dans PostgreSQL et générer un dashboard."
+  - description: "Cas minimal - ingestion seule"
+    vars:
+      user_goal: "Ingérer les données d'une API REST et les écrire en CSV."
+  - description: "Cas avec ambiguïté volontaire"
+    vars:
+      user_goal: "Connecter une base PostgreSQL, faire un nettoyage et publier les résultats."
+
+providers:
+  - id: openrouter:openai/gpt-3.5-turbo
+
