@@ -1,21 +1,41 @@
 # yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
 description: "devoir 1: themes technique autour des llms ( cas openclaw )"
 
-
 prompts:
-  - file://structure.txt
-  - file://articles.txt
   - |
-    Tu es un expert en architectures LLM et en systèmes multi-agents. 
-    À partir exclusivement des sources ci-dessus et en respectant strictement la structure imposée, rédige une note de synthèse académique complète (1200 à 1500 mots) sur OpenClaw en tant que framework d'agents LLM..
+    === STRUCTURE OBLIGATOIRE À RESPECTER ===
+    {{structure}}
+
+    === SOURCES / ARTICLES ===
+    {{articles}}
+
+    === INSTRUCTIONS ===
+    Tu es un expert en architectures LLM et en systèmes multi-agents.
+    À partir exclusivement des sources ci-dessus et en respectant strictement la structure imposée, rédige une note de synthèse académique complète sur OpenClaw en tant que framework d'agents LLM.
+
+    FORMAT DE RÉDACTION OBLIGATOIRE :
+    - Faire apparaître explicitement chaque grande partie par un titre numéroté en chiffres romains, sur sa propre ligne, avant le contenu de la partie.
+    - Utiliser exactement la numérotation et les intitulés suivants comme titres de parties (chaque titre sur une ligne dédiée) :
+      I. Contexte et problématique
+      II. Architecture technique d'OpenClaw
+      III. Mécanismes d'orchestration et gestion des outils
+      IV. Cas d'usage détaillés
+      V. Limites, risques et enjeux de sécurité
+      VI. Conclusion
+    - Sauter une ligne entre chaque grande partie pour une lecture claire.
+    - Sous chaque titre de partie, développer le contenu en respectant les sous-points indiqués dans la structure.
 
     Contraintes :
     - Utiliser uniquement les informations issues des sources
     - Citer les sources sous la forme [ARTICLE X]
     - Mentionner explicitement toute incertitude
     - Comparer avec une architecture LLM simple
-    - Minimum 1200 mots
+    - Minimum 30000 mots
 
+defaultTest:
+  inputs:
+    structure: file://structure.txt
+    articles: file://articles.txt
 
 providers:
   - id: openrouter:openai/gpt-3.5-turbo
